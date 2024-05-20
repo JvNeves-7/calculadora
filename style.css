@@ -43,7 +43,7 @@
     box-shadow: none;
 }
 
-form.display{
+/* form.display{
     display: flex;
     justify-content: end;
     margin: 20px 0;
@@ -54,7 +54,7 @@ form.display input {
     flex: 1;
     box-shadow: none;
     font-size: 45px;
-}
+}*/
 
 form input.equal{
     width: 145px;
@@ -63,4 +63,13 @@ form input.equal{
 
 form input.operator{
     color: rgb(255, 201, 100);
+}
+
+#display1{
+    width: 310px;
+    align-items: center;
+    text-align: right; 
+    background-color: white;
+    color: black;
+    
 }
